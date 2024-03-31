@@ -91,8 +91,8 @@
 
   /* Left Side */
   .home-card {
-    /* border: 2px solid black;
-    background: rgb(255, 255, 255); */
+    border: 2px solid black;
+    /*background: rgb(255, 255, 255); */
     height: 500px;
     width: 700px;
   }
