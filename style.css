@@ -7,7 +7,9 @@
     font-family: "Courier Prime", monospace;
   }
 
-  /* Navigation Bar */
+  /* HOME PAGE */
+
+  /* Navigation Bar for both pages */
   ul{
     list-style: none;
     padding: 0;
@@ -46,8 +48,6 @@
 
   /* Heading */
   .heading {
-
-    border: 1px solid black;
     margin: 0 200px;
     margin-top: 30px;
     font-size: 2.5rem;
@@ -78,29 +78,22 @@
 
   /* Home Page Content */
   .home-container {
-    border: 1px solid red;
-    /* width: 100%; */
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 200px;
     margin-top: 50px;
-    /* margin: 0 200px;
-    padding: 10px 0; */
   }
 
   /* Left Side */
   .home-card {
-    border: 2px solid black;
-    /*background: rgb(255, 255, 255); */
     height: 500px;
     width: 700px;
   }
 
   .home-card h2 {
     font-size: 2.5rem;
-    /* text-align: center; */
     margin: 10px;
     padding: 10px;
     padding-top: 30px;
@@ -113,7 +106,6 @@
   }
 
   .home-card .btn {
-  
     background-color: rgb(93, 53, 4);
     color: white;
     font-size: 24px;
@@ -123,18 +115,24 @@
     margin: 20px;
     float: right;
     border-radius: 6px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .home-card .btn:hover {
+    background-color: white;
+    color: rgb(93, 53, 4);
   }
 
   /* Right Side */
-
   .home-image img {
     height: auto;
     width: 100%;
-    margin-bottom: 3rem;
   }
   /*End Home Page Content */
+
+  /* END HOME PAGE */
   
-  /* Footer */
+  /* Footer for both pages*/
   footer {
     display: flex;
     align-items: center;
@@ -145,7 +143,10 @@
     height: 50px;
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
     color: white;
+    position: fixed;
   }
+
+  /* BLOG POST PAGE */
   
   /* blog post */
   .blog-heading {
@@ -283,4 +284,4 @@
     cursor: pointer;
   } */
 
-
+/* END BLOG POST PAGE */
