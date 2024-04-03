@@ -204,7 +204,7 @@
   }
 
   .blog-suspects-list {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .blog-suspects-list li {
@@ -319,5 +319,6 @@
     background-color: white;
     color: rgb(93, 53, 4);
   }
-
 /* END BLOG POST PAGE */
+
+/* Media Queries */
