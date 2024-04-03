@@ -163,15 +163,10 @@
   }
 
   .blog-container {
-    /* width: 100%; */
     height: 100vh;
     min-width: auto;
     border: 2px solid black;
     display: grid;
-    /* grid-template-columns: 60% 40%;
-    margin: 50px;
-    grid-gap: 50px; */
-    
     margin: 50px;
     grid-template-columns: 2fr 1fr;
     grid-gap: 50px;
@@ -182,7 +177,6 @@
     border: 1px solid red;
     padding: 10px 20px;
     margin-bottom: 20px;
-    
   }
 
   .blog-title img {
@@ -192,35 +186,44 @@
     height: 50px;
   }
 
+  .blog-suspects-list {
+    padding-left: 20px;
+  }
+
+  .blog-suspects-list li {
+    list-style: square;
+  }
+
   /* right side of blog */
   .blog-right {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding: 10px 20px;
     border: 1px solid green;
     margin-bottom: 20px;
   }
 
+  .blog-right h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
   .about {
-    /* border: 1px solid yellow; */
     background-color: rgba(193, 154, 106, 0.836);
     margin-bottom: 20px;
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
   }
 
   .blog-about p {
-    /* border: 1px solid rgb(47, 160, 212); */
     background-color: rgb(255, 235, 205);
     margin: 20px;
     padding: 10px;
   }
 
   .blog-podcast {
-    /* border: 1px solid rgb(255, 255, 255); */
-    background-color: rgb(246, 211, 168);
     background-color: rgba(193, 154, 106, 0.836);
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
     margin-bottom: 20px;
-    
   }
 
   .blog-lists {
@@ -229,15 +232,7 @@
     padding: 10px;
   }
 
-  /* .blog-right h2 {
-    padding: 0;
-    height: 60px;
-    background-color: rgba(113, 49, 3, 0.266);
-  } */
-
   .blog-notes {
-    /* background: blue; */
-    /* display: flex; */
     color: white;
   }
 
@@ -257,9 +252,8 @@
   }
   
   .blog-subscription{
-    /* border: 1px solid blue; */
-    background-color: rgb(246, 211, 168);
     background-color: rgba(193, 154, 106, 0.836);
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
     margin-bottom: 20px;
   }
 
@@ -268,30 +262,26 @@
     margin: 20px;
     padding: 10px;
   }
-  /* .blog-input {
-    background-color: blanchedalmond;
-    margin: 20px;
-    padding: 10px;
-  }
-  */
+  
   .blog-input input {
     background-color: rgba(179, 166, 166, 0.215);
     width: 100%;
     height: 30px;
     margin: 10px auto;
-   
   }
 
   .blog-socials {
-    padding: 20px;
     background-color: rgba(193, 154, 106, 0.836);
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
     text-align: center;
   } 
 
   .blog-links {
     display: flex;
     justify-content: space-evenly;
-    
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 10px;
   }
 
   .blog-links a {
