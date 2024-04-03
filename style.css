@@ -204,7 +204,7 @@
 
   .about {
     /* border: 1px solid yellow; */
-    background-color: rgba(193, 154, 106, 0.441);
+    background-color: rgba(193, 154, 106, 0.836);
     margin-bottom: 20px;
   }
 
@@ -218,7 +218,7 @@
   .blog-podcast {
     /* border: 1px solid rgb(255, 255, 255); */
     background-color: rgb(246, 211, 168);
-    background-color: rgba(193, 154, 106, 0.441);
+    background-color: rgba(193, 154, 106, 0.836);
     margin-bottom: 20px;
     
   }
@@ -259,7 +259,8 @@
   .blog-subscription{
     /* border: 1px solid blue; */
     background-color: rgb(246, 211, 168);
-    background-color: rgba(193, 154, 106, 0.441);
+    background-color: rgba(193, 154, 106, 0.836);
+    margin-bottom: 20px;
   }
 
   .blog-subscribe-container{
@@ -279,6 +280,25 @@
     height: 30px;
     margin: 10px auto;
    
+  }
+
+  .blog-socials {
+    padding: 20px;
+    background-color: rgba(193, 154, 106, 0.836);
+    text-align: center;
+  } 
+
+  .blog-links {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .blog-links a {
+    color: black;
+    line-height: 15px;
+    font-size: 30px;
+    text-decoration: none;
   }
 
   /* .blog-btn {
