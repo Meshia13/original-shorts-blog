@@ -137,7 +137,7 @@
   footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -146,7 +146,15 @@
     color: white;
     /* position: fixed; */
   }
-  
+
+  .footer-links a {
+    color: whitesmoke;
+    line-height: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+
   /* BLOG POST PAGE */
   
   /* blog post */
