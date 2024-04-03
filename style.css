@@ -38,6 +38,7 @@
     line-height: 70px;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: 0.3s ease-in-out;
   }
 
   .navbar li a:hover {
@@ -172,11 +173,30 @@
     grid-gap: 50px;
   }
 
+  hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #000000;
+  }
+
   /* left side blog */
   .blog-left {
     border: 1px solid red;
     padding: 10px 20px;
     margin-bottom: 20px;
+  }
+
+  .blog-title {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "hd hd"
+    "rw rw";
+  }
+
+  .blog-title h2 {
+    grid-area: hd;
   }
 
   .blog-title img {
@@ -216,6 +236,7 @@
 
   .blog-about p {
     background-color: rgb(255, 235, 205);
+    box-shadow: 5px 5px 5px rgba(93, 53, 4, 0.493) inset;
     margin: 20px;
     padding: 10px;
   }
@@ -228,12 +249,14 @@
 
   .blog-lists {
     background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px rgba(93, 53, 4, 0.493) inset;
     margin: 20px;
     padding: 10px;
   }
 
   .blog-notes {
-    color: white;
+    display:flex;
+    flex-wrap: wrap;
   }
 
   .blog-notes img {
@@ -245,12 +268,7 @@
     width: 400px;
     height: 300px;
   }
-  
-  .blog-notes span {
-    align-items: center;
-    color: black;
-  }
-  
+ 
   .blog-subscription{
     background-color: rgba(193, 154, 106, 0.836);
     box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
@@ -259,6 +277,7 @@
 
   .blog-subscribe-container{
     background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px rgba(93, 53, 4, 0.493) inset;
     margin: 20px;
     padding: 10px;
   }
@@ -280,6 +299,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px rgba(93, 53, 4, 0.493) inset;
     margin: 20px;
     padding: 10px;
   }
@@ -289,10 +309,24 @@
     line-height: 15px;
     font-size: 30px;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
   }
 
-  /* .blog-btn {
-    cursor: pointer;
+  /* .blog-links a:hover {
+    background-color: black;
+    color: white;
   } */
+
+  .blog-btn .submit {
+    background-color: rgb(93, 53, 4);
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .blog-btn .submit:hover {
+    background-color: white;
+    color: rgb(93, 53, 4);
+  }
 
 /* END BLOG POST PAGE */
