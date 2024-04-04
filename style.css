@@ -1,7 +1,11 @@
- body {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+ 
+ body {
     background-image: url("assets/images/b3.jpg");
     background-repeat: no-repeat;
     font-family: "Courier Prime", monospace;
@@ -49,11 +53,12 @@
 
   /* Heading */
   .heading {
-    margin: 0 200px;
-    margin-top: 30px;
+    margin: 0 50px;
+    margin-top: 20px;
     font-size: 2.5rem;
     color: rgb(93, 53, 4);
     text-align: center;
+    border: 1px solid black;
   }
 
   h1 span {
@@ -79,18 +84,20 @@
 
   /* Home Page Content */
   .home-container {
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 200px;
-    margin-top: 50px;
+    margin: 0 50px;
+    margin-top: 20px;
+    border: 1px solid red;
   }
 
   /* Left Side */
   .home-card {
     height: 500px;
     width: 700px;
+    border: 1px solid green;
   }
 
   .home-card h2 {
@@ -103,18 +110,18 @@
   .home-card p {
     margin: 10px;
     padding: 10px;
-    line-height: 1.5;
+    line-height: 1.25;
   }
 
   .home-card .btn {
     background-color: rgb(93, 53, 4);
     color: white;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     padding: 10px 20px;
     margin: 20px;
-    float: right;
+    /* float: right; */
     border-radius: 6px;
     transition: 0.3s ease-in-out;
   }
@@ -136,6 +143,7 @@
   /* Footer for both pages*/
   footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     left: 0;
@@ -144,7 +152,10 @@
     height: 50px;
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
     color: white;
-    /* position: fixed; */
+  }
+
+  .footer-container {
+    flex: 1;
   }
 
   .footer-links a {
@@ -330,3 +341,65 @@
 /* END BLOG POST PAGE */
 
 /* Media Queries */
+
+/* @media only screen and (max-width:1150px) {
+  
+  .home-container {
+    height: auto;
+    margin: 20px;
+    margin-top: 0;
+  }
+}*/
+
+@media only screen and (max-width:950px) {
+  
+  .heading {
+    margin: 20px;
+    margin-top: 0;
+  }
+
+  h1 span.title-1 {
+    font-size: 3rem;
+  }
+
+  h1 span.title-2 {
+    font-size: 2.5rem;
+  }
+
+  h1 span.title-3 {
+    font-size: 2.5rem;
+  }
+
+  .home-container {
+    margin: 20px;
+    margin-top: 0;
+  }
+
+ 
+
+} 
+
+@media only screen and (max-width:775px) {
+  .home-container {
+    height: 100vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+   }
+
+  .home-image img {
+    height: 250px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .home-card {
+    height: auto;
+    width: auto;
+  }
+
+  .home-card h2 {
+    font-size: 1.5rem;
+    padding-top: 0;
+  }
+
+}
