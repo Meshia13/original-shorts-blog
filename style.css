@@ -417,14 +417,14 @@
 @media only screen and (max-width:500px){
 
   h1 span.title-1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   h1 span.title-2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h1 span.title-3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
