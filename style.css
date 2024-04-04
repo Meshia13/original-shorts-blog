@@ -380,6 +380,8 @@
 } 
 
 @media only screen and (max-width:775px) {
+
+
   .home-container {
     height: 100vh;
     flex-direction: column-reverse;
@@ -402,4 +404,27 @@
     padding-top: 0;
   }
 
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
+  }
+
+}
+
+@media only screen and (max-width:500px){
+
+  h1 span.title-1 {
+    font-size: 2.5rem;
+  }
+
+  h1 span.title-2 {
+    font-size: 2rem;
+  }
+
+  h1 span.title-3 {
+    font-size: 2rem;
+  }
 }
