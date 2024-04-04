@@ -14,21 +14,69 @@
   /* HOME PAGE */
 
   /* Navigation Bar for both pages */
-  ul{
+  /* ul{
     list-style: none;
     padding: 0;
     margin: 0;
+  } */
+
+  nav {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
   }
 
-  .navbar {
+  nav i {
+    font-size: 20px;
+    color: white;
+  }
+
+  #navmenu {
+    display: none;
+  }
+
+  .open-navbar {
+    display: none;
+    padding: 0 20px;
+  }
+
+  .close-navbar {
+    display: none;
+    padding: 0 20px;
+  }
+
+  .nav-links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav a {
+    height: 100%;
+    padding: 0 20px;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  .navbar {
+    /* display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    height: 70px;
-    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
+    height: 70px; */
+    /* background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); */
   }
 
-  .navbar li {
+  /* .navbar li {
     float: left;
   }
 
@@ -48,7 +96,7 @@
   .navbar li a:hover {
     background-color: #ddd;
     color: rgb(29, 12, 1);
-  }
+  } */
   /* End Navigation Bar */
 
   /* Heading */
@@ -353,6 +401,8 @@
 
 @media only screen and (max-width:950px) {
   
+  
+
   .heading {
     margin: 20px;
     margin-top: 0;
@@ -381,6 +431,10 @@
 
 @media only screen and (max-width:775px) {
 
+  .nav-links-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   .home-container {
     height: 100vh;
@@ -404,17 +458,19 @@
     padding-top: 0;
   }
 
-  .navbar {
+  /* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
-  }
+  } */
 
 }
 
 @media only screen and (max-width:500px){
+
+  
 
   h1 span.title-1 {
     font-size: 2.5rem;
