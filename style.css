@@ -2,10 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+  }
 
- 
- body {
+  body {
     background-image: url("assets/images/b3.jpg");
     background-repeat: no-repeat;
     font-family: "Courier Prime", monospace;
@@ -73,17 +72,17 @@
     text-align: center;
   }
 
-  h1 span {
+  .home-heading span {
     display: flex;
     flex-direction: row;
   }
 
-  h1 span.title-1 {
+  .home-heading span.title-1 {
     font-weight: 700;
     text-transform: uppercase;
   }
 
-  h1 span.title-2 {
+  .home-heading span.title-2 {
     font-size: 3.5rem;
     color: white;
   }
@@ -157,18 +156,6 @@
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
     color: white;
   }
-
-  .footer-container {
-    flex: 1;
-  }
-
-  .footer-links a {
-    color: whitesmoke;
-    line-height: 15px;
-    font-size: 20px;
-    text-decoration: none;
-    transition: 0.3s ease-in-out;
-  }
   /* End Footer */
 
   /* BLOG POST PAGE */
@@ -180,6 +167,7 @@
     color: rgb(93, 53, 4);
     text-align: center;
     padding-left: 20px;
+    border: 1px solid blue;
   }
 
   .blog-heading p {
@@ -187,12 +175,12 @@
   }
 
   .blog-container {
-    height: 100vh;
-    min-width: auto;
+    height: auto;
     display: grid;
     margin: 50px;
     grid-template-columns: 2fr 1fr;
     grid-gap: 50px;
+    border: 1px solid rgb(255, 0, 0);
   }
 
   hr {
@@ -204,7 +192,7 @@
   /* left side blog */
   .blog-left {
     padding: 10px 20px;
-    margin-bottom: 20px;
+    border: 1px solid white;
   }
 
   .blog-title {
@@ -240,7 +228,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    border: 1px solid black;
   }
 
   .blog-right h2 {
@@ -347,35 +335,25 @@
 
 /* Media Queries */
 
-/* @media only screen and (max-width:1150px) {
-  
-  .home-container {
-    height: auto;
-    margin: 20px;
-    margin-top: 0;
-  }
-}*/
-
 @media only screen and (max-width:950px) {
   
-  
-
   .heading {
     margin: 20px;
     margin-top: 0;
   }
 
-  h1 span.title-1 {
+  .heading {
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+
+  .home-heading span.title-1 {
     font-size: 3rem;
   }
 
-  h1 span.title-2 {
+  .home-heading span.title-2 {
     font-size: 2.5rem;
   }
-/* 
-  h1 span.title-3 {
-    font-size: 2.5rem;
-  } */
 
   .home-container {
     margin: 20px;
@@ -388,7 +366,7 @@
 
 @media only screen and (max-width:775px) {
 
-  .nav-links-container {
+ .nav-links-container {
     display: none;
    flex-direction: column;
    align-items: flex-end;
@@ -453,14 +431,6 @@
     padding-top: 0;
   }
 
-  /* .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black);
-  } */
-
 }
 
 @media only screen and (max-width:500px){
@@ -470,15 +440,12 @@
     align-items: flex-start;
   }
 
-  h1 span.title-1 {
+  .home-heading span.title-1 {
     font-size: 2.5rem;
   }
 
-  h1 span.title-2 {
+  .home-heading span.title-2 {
     font-size: 2rem;
   }
-/* 
-  h1 span.title-3 {
-    font-size: 1.5rem;
-  } */
+
 }
