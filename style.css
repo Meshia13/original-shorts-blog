@@ -430,15 +430,14 @@
     font-size: 1.5rem;
     padding-top: 0;
   }
-
-
+  
   .blog-container {
     grid-template-columns: 1fr;
   }
 
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:510px){
 
   .nav-links-container {
     flex-direction: column;
