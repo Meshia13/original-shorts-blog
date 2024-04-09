@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who Killed Mr. Goodbar</title>
 
-    <!-- CSS STylesheet -->
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesone -->
@@ -17,21 +17,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+  
     <!-- Header -->
     <header class="header">
-        
         <!-- Navigation Bar -->
         <nav class="home-navigation">
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Stories</a></li>
-                <li><a href="#podcast">Podcasts</a></li>
-                <li><a href="#subscription">Subscribe</a></li>
-            </ul>
+
+            <input type="checkbox" id="navmenu">
+            <label for="navmenu" class="open-navbar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="navmenu"></label>
+            <div class="nav-links-container">
+                <label for="navmenu" class="close-navbar">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+
+                <a href="#">Home</a>
+                <a href="blogpost.html#about">About</a>
+                <a href="blogpost.html">Stories</a>
+                <a href="blogpost.html#podcast">Podcasts</a>
+                <a href="blogpost.html#subsccription">Subscribe</a>
+            </div>
         </nav>
         <!-- End Navigation Bar -->
     </header>
+    <!-- End of Header -->
 
     <!-- Heading -->
     <div class="blog-heading">

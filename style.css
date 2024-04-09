@@ -14,13 +14,7 @@
   /* HOME PAGE */
 
   /* Navigation Bar for both pages */
-  /* ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  } */
-
-  nav {
+  .home-navigation {
     height: 70px;
     display: flex;
     justify-content: flex-end;
@@ -33,10 +27,9 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
   }
 
-  nav a {
+  .home-navigation a {
     height: 100%;
     padding: 0 20px;
     display: flex;
@@ -48,12 +41,12 @@
     font-weight: bold;
   }
 
-  nav a:hover {
-    background-color: #ddd;
+  .home-navigation a:hover {
+    background-color: #ffd39d;
     color: rgb(29, 12, 1);
   }
 
-  nav i {
+  .home-navigation i {
     font-size: 20px;
     color: white;
   }
@@ -69,35 +62,6 @@
   .close-navbar {
     display: none;
   }
-  .navbar {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 70px; */
-    /* background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); */
-  }
-
-  /* .navbar li {
-    float: left;
-  }
-
-  .navbar li a {
-    float: left;
-    text-align: center;
-    padding: 0 10px 0 10px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 70px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
-  }
-
-  .navbar li a:hover {
-    background-color: #ddd;
-    color: rgb(29, 12, 1);
-  } */
   /* End Navigation Bar */
 
   /* Heading */
@@ -107,7 +71,6 @@
     font-size: 2.5rem;
     color: rgb(93, 53, 4);
     text-align: center;
-    border: 1px solid black;
   }
 
   h1 span {
@@ -124,11 +87,6 @@
     font-size: 3.5rem;
     color: white;
   }
-
-  /* h1 span.title-3 {
-    font-size: 3.5rem;
-    color: white;
-  } */
   /* End Heading */
 
   /* Home Page Content */
@@ -139,14 +97,12 @@
     justify-content: space-evenly;
     margin: 0 50px;
     margin-top: 20px;
-    border: 1px solid red;
   }
 
   /* Left Side */
   .home-card {
     height: 500px;
     width: 700px;
-    border: 1px solid green;
   }
 
   .home-card h2 {
@@ -170,7 +126,6 @@
     text-decoration: none;
     padding: 10px 20px;
     margin: 20px;
-    /* float: right; */
     border-radius: 6px;
     transition: 0.3s ease-in-out;
   }
@@ -190,7 +145,7 @@
   /* END HOME PAGE */
   
   /* Footer for both pages*/
-  footer {
+  #footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,6 +169,7 @@
     text-decoration: none;
     transition: 0.3s ease-in-out;
   }
+  /* End Footer */
 
   /* BLOG POST PAGE */
   
@@ -445,7 +401,7 @@
    box-shadow: -5px 0 5px rgba(91, 54, 1, 0.711);
   }
 
-  nav a {
+  .home-navigation a {
     height:auto;
     box-sizing: border-box;
     width: 100%;
