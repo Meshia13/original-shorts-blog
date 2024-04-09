@@ -28,16 +28,12 @@
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
   }
 
-  nav i {
-    font-size: 20px;
-    color: white;
-  }
-
   .nav-links-container {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+    /* justify-content: space-evenly; */
   }
 
   nav a {
@@ -48,12 +44,19 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    /* font-size: 1.5rem;
-    font-weight: bold; */
-    
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
-  
+  nav a:hover {
+    background-color: #ddd;
+    color: rgb(29, 12, 1);
+  }
+
+  nav i {
+    font-size: 20px;
+    color: white;
+  }
 
   #navmenu {
     display: none;
@@ -61,12 +64,10 @@
 
   .open-navbar {
     display: none;
-    padding: 0 20px;
   }
 
   .close-navbar {
     display: none;
-    padding: 0 20px;
   }
   .navbar {
     /* display: flex;
@@ -431,7 +432,48 @@
 
 @media only screen and (max-width:775px) {
 
+  .nav-links-container {
+    display: none;
+   flex-direction: column;
+   align-items: flex-end;
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 10;
+   width: 200px;
+   background-color: #351e05;
+   box-shadow: -5px 0 5px rgba(91, 54, 1, 0.711);
+  }
+
+  nav a {
+    height:auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 30px;
+  }
+
+  .open-navbar {
+    display: block;
+    padding: 20px;
+  }
+
+  .close-navbar {
+    display: block;
+    padding: 20px;
+  }
+
+  #navmenu:checked ~ .nav-links-container {
+    display: flex;
+  }
  
+  #navmenu:checked ~ #overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
 
   .home-container {
     height: 100vh;
