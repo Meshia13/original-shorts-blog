@@ -515,3 +515,9 @@
     padding: 5px;
   }
 }
+
+@media only screen and (max-width:450px) {
+  .blog-container {
+    margin: 20px;;
+   }
+}
