@@ -475,6 +475,11 @@
     margin-top: 5px;
   }
 
+  .blog-image img {
+    height: auto;
+    width: 100%;
+  }
+
   #hr-bottom {
     display: block;
     border: 0;
@@ -506,7 +511,7 @@
   .blog-container {
    margin: 35px;
   }
- 
+
   .blog-left {
     padding: 5px;
   }
@@ -514,10 +519,4 @@
   .blog-right {
     padding: 5px;
   }
-}
-
-@media only screen and (max-width:450px) {
-  .blog-container {
-    margin: 20px;;
-   }
 }
