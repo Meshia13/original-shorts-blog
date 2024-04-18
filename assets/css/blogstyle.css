@@ -25,6 +25,10 @@
     border-top: 1px solid #7d4e24;
   }
 
+  .blog-em {
+    font-weight: bold;
+  }
+
   /* left side blog */
   .blog-left {
     padding: 10px 20px;

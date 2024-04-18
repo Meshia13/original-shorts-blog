@@ -60,6 +60,7 @@
     text-decoration: none;
     padding: 10px 20px;
     margin: 20px;
+    border: none;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
   }
@@ -73,6 +74,12 @@
   .home-image img {
     height: auto;
     width: 100%;
+  }
+
+  .home-caption {
+    font-style: italic;
+    font-size: .75rem;
+    font-weight: bold;
   }
   /*End Home Page Content */
 
