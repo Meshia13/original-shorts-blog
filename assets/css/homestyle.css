@@ -1,0 +1,79 @@
+/* Heading */
+.heading {
+    margin: 0 50px;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: rgb(93, 53, 4);
+    text-align: center;
+  }
+
+  .home-heading span {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-heading span.title-1 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .home-heading span.title-2 {
+    font-size: 3.5rem;
+    color: white;
+  }
+  /* End Heading */
+
+  /* Home Page Content */
+  .home-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+  }
+
+  /* Left Side */
+  .home-card {
+    height: 500px;
+    width: 700px;
+  }
+
+  .home-card h2 {
+    font-size: 2.5rem;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 30px;
+  }
+
+  .home-card p {
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.25;
+  }
+
+  .home-card .btn {
+    background-color: rgb(93, 53, 4);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .home-card .btn:hover {
+    background-color: white;
+    color: rgb(93, 53, 4);
+  }
+
+  /* Right Side */
+  .home-image img {
+    height: auto;
+    width: 100%;
+  }
+  /*End Home Page Content */
+
+  /* END HOME PAGE */
