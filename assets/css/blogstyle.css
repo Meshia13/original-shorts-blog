@@ -1,5 +1,5 @@
 /* blog post */
-.blog-heading {
+  .blog-heading {
     margin: 10px 50px;
     font-size: 2.5rem;
     color: rgb(93, 53, 4);
@@ -95,9 +95,9 @@
   }
 
  .blog-sections {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
  }
 
   .about {
