@@ -1,6 +1,6 @@
-@import url("/assets/css/homestyle.css");
-@import url("/assets/css/blogstyle.css");
-@import url("/assets/css/nav.css");
+@import url("homestyle.css");
+@import url("blogstyle.css");
+@import url("nav.css");
  
  * {
     padding: 0;
@@ -9,7 +9,7 @@
   }
 
   body {
-    background-image: url("/assets/images/b3.jpg");
+    background-image: url("../images/b3.jpg");
     background-repeat: no-repeat;
     font-family: "Courier Prime", monospace;
   }

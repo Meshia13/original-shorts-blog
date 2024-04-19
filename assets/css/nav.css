@@ -7,14 +7,6 @@
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
   }
 
-  /* #home-navigation {
-    height: 70px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
-  } */
-
   .nav-links-container {
     height: 100%;
     width: 100%;
@@ -34,37 +26,15 @@
     font-weight: bold;
   }
 
-  /* #home-navigation a {
-    height: 100%;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: bold;
-  } */
-
   .home-navigation a:hover {
     background-color: #ffd39d;
     color: rgb(29, 12, 1);
   }
 
-  /* #home-navigation a:hover {
-    background-color: #ffd39d;
-    color: rgb(29, 12, 1);
-  } */
-
   .home-navigation i {
     font-size: 20px;
     color: white;
   }
-
-  /* #home-navigation i {
-    font-size: 20px;
-    color: white;
-  } */
 
   #navmenu {
     display: none;
@@ -94,159 +64,4 @@
   }
   /* End Footer */
    
-   /* @media only screen and (max-width:950px) {
   
-        .heading {
-        margin: 20px;
-        margin-top: 0;
-        }
-    
-        .heading {
-        margin-left: 35px;
-        margin-top: 20px;
-        }
-    
-        .home-heading span.title-1 {
-        font-size: 3rem;
-        }
-    
-        .home-heading span.title-2 {
-        font-size: 2.5rem;
-        }
-    
-        .home-container {
-        margin: 20px;
-        margin-top: 0;
-        }
-    } 
-  
-    @media only screen and (max-width:775px) {
-    
-    .nav-links-container {
-        display: none;
-        flex-direction: column;
-        align-items: flex-end;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 10;
-        width: 200px;
-        background-color: #351e05;
-        box-shadow: -5px 0 5px rgba(91, 54, 1, 0.711);
-        }
-    
-        .home-navigation a {
-        height:auto;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 20px 30px;
-        }
-    
-        .open-navbar {
-        display: block;
-        padding: 20px;
-        }
-    
-        .close-navbar {
-        display: block;
-        padding: 20px;
-        }
-    
-        #navmenu:checked ~ .nav-links-container {
-        display: flex;
-        }
-    
-        #navmenu:checked ~ #overlay {
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9;
-        }
-    
-        .home-container {
-        height: 100vh;
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        }
-    
-        .home-image img {
-        height: 250px;
-        width: 100%;
-        margin-left: 20px;
-        }
-    
-        .home-card {
-        height: auto;
-        width: auto;
-        }
-    
-        .home-card h2 {
-        font-size: 1.5rem;
-        padding-top: 0;
-        }
-        
-        .blog-container {
-        grid-template-columns: 1fr;
-        }
-    
-        .blog-title {
-        display: flex;
-        flex-direction: column;
-        margin: 15px 0;
-        }
-    
-        .blog-title img {
-        margin-top: 10px;
-        }
-    
-        #blog-author {
-        margin-top: 5px;
-        }
-    
-        .blog-image img {
-        height: auto;
-        width: 100%;
-        }
-    
-        #hr-bottom {
-        display: block;
-        border: 0;
-        margin-top: 10px;
-        border-top: 1px solid #7d4e24;
-        }
-    }
-    
-    @media only screen and (max-width:505px){
-    
-        .nav-links-container {
-        flex-direction: column;
-        align-items: flex-start;
-        }
-    
-        .home-heading span.title-1 {
-        font-size: 2.5rem;
-        }
-    
-        .home-heading span.title-2 {
-        font-size: 2rem;
-        }
-    
-        .blog-heading {
-        margin: 35px;
-        padding-left: 5px;
-        }
-    
-        .blog-container {
-        margin: 35px;
-        }
-    
-        .blog-left {
-        padding: 5px;
-        }
-    
-        .blog-right {
-        padding: 5px;
-        }
-    } */
