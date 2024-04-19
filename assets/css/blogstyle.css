@@ -34,24 +34,42 @@
     padding: 10px 20px;
   }
 
+  .blog-caption {
+    font-style: italic;
+    font-size: .75rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
   .blog-title {
+    margin-bottom: 30px;
+  }
+
+  .author-info {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "hd hd"
-    "rw rw";
-  }
-
-  .blog-title h2 {
-    grid-area: hd;
-  }
-
-  .blog-title img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    grid-template-columns: 1fr 13fr;
+    grid-template-rows: auto auto auto;
     margin-bottom: 10px;
+  }
+
+  #blog-author{
+    font-weight: 700;
+    color: rgb(61, 36, 5);
+    text-decoration: underline;
+  }
+
+  #author-bio {
+    font-style: italic;
+  }
+  
+  .author-info img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
   }
 
   .blog-article {

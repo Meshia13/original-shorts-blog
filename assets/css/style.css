@@ -139,7 +139,12 @@
     margin: 15px 0;
   }
 
-  .blog-title img {
+  .author-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .author-info img {
     margin-top: 10px;
   }
 
