@@ -7,6 +7,14 @@
     background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
   }
 
+  /* #home-navigation {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right,black, #473119, #473119, #473119, black); 
+  } */
+
   .nav-links-container {
     height: 100%;
     width: 100%;
@@ -26,15 +34,37 @@
     font-weight: bold;
   }
 
+  /* #home-navigation a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+  } */
+
   .home-navigation a:hover {
     background-color: #ffd39d;
     color: rgb(29, 12, 1);
   }
 
+  /* #home-navigation a:hover {
+    background-color: #ffd39d;
+    color: rgb(29, 12, 1);
+  } */
+
   .home-navigation i {
     font-size: 20px;
     color: white;
   }
+
+  /* #home-navigation i {
+    font-size: 20px;
+    color: white;
+  } */
 
   #navmenu {
     display: none;

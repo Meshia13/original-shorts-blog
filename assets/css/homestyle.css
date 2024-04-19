@@ -52,7 +52,7 @@
     line-height: 1.25;
   }
 
-  .home-card .btn {
+  .btn {
     background-color: rgb(93, 53, 4);
     color: white;
     font-size: 15px;
@@ -65,7 +65,7 @@
     transition: 0.3s ease-in-out;
   }
 
-  .home-card .btn:hover {
+  .btn:hover {
     background-color: white;
     color: rgb(93, 53, 4);
   }
@@ -81,6 +81,32 @@
     font-size: .75rem;
     font-weight: bold;
   }
+
+  .more-stories {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 20px;
+  }
+
+  .stories {
+    border: 1.5px solid rgb(85, 39, 2);
+    margin: 20px;
+    box-shadow: 5px 8px 5px rgba(93, 53, 4, 0.493);
+  }
+
+  .stories img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* .stories h2 {
+    font-size: 2rem;
+    color: rgb(93, 53, 4);
+  } */
+
   /*End Home Page Content */
 
   /* END HOME PAGE */
