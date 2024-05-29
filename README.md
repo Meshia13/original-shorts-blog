@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/)
+![](/assets/images/CaseFile.png)
 
 ### Links
 
