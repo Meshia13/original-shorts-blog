@@ -16,12 +16,9 @@ This is a Front End Web Development project.
 
 ### Description
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+Blog website that utilize HTML and CSS. This blog features responsive design, custom styling, and interactive elements. Demonstrates proper HTML semantic, proper indentation, consistent styling, and clean code structure.
 
 ### Screenshot
-
 
 <img src="/assets/images/CaseFile.png" width="150" height="100">
 
