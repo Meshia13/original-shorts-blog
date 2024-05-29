@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 
-<img src="/assets/images/CaseFile.png" width="100" height="100">
+<img src="/assets/images/CaseFile.png" width="150" height="100">
 
 ### Links
 
