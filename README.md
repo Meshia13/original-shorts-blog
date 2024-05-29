@@ -22,7 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/assets/images/PoliceStation.png)
+
+<img src="/assets/images/CaseFile.png"
 
 ### Links
 
