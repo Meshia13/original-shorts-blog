@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Code]()
+- Live Site URL: [Live Code](https://meshia13.github.io/original-shorts-blog/)
 
 ## My process
 
