@@ -22,68 +22,108 @@
     <header class="header">
         <!-- Navigation Bar -->
         <nav class="home-navigation" id="navbar">
-           
+            <input type="checkbox" id="navmenu">
+            <label for="navmenu" class="open-navbar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <label id="overlay" for="navmenu"></label>
+            <div class="nav-links-container">
+                <label for="navmenu" class="close-navbar">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+
+                <a href="#">Home</a>
+                <a href="assets/pages/blogpost.html#about">About</a>
+                <a href="assets/pages/blogpost.html">Stories</a>
+                <a href="assets/pages/blogpost.html#podcast">Podcasts</a>
+                <a href="assets/pages/blogpost.html#subsccription">Subscribe</a>
+            </div>
         </nav>
         <!-- End Navigation Bar -->
     </header>
     <!-- End of Header -->
-
-    <!-- Hero -->
-
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1>Welcome to Shorts: Original Stories</h1>
-            <p>Creative short stories, podcast</p>
-            <a href="./assets/pages/featurePage.html">Explore Stories</a>
-        </div>
-    </section>
-
-    <!-- End of Hero -->
-
-    <!-- Features Section -->
-
-    <section class="features-highlights">
-        
-        <div class="feature">
-            <div class="feature-content">
-                <i class="fa-solid fa-book-open"></i>
-                <a href="./assets/pages/blogpost.html">
-                    <h3>Original Fiction</h3>
-                </a>
-                <p>Original anthology stories</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="feature">
-            <div class="feature-content">
-                <i class="fa-solid fa-headphones"></i>
-                <a href="./assets/pages/blogpost.html#podcast">
-                    <h3>Podcast</h3>
-                </a>
-                <p>Listen to dramatized versions of the stories</p>
-            </div>
-        </div>
-
-        <div class="feature">
-            <div class="feature-content">
-                <i class="fa-solid fa-star"></i>
-                <a href="./assets/pages/featurePage.html">
-                    <h3>Fan Favorites</h3>
-                </a>
-                <p>Discover the most talked-about shorts in the Candyland universe.</p>
-                </div>
-        </div>
-    </section>
-
-    <!-- End of Features Section -->
     
+    <!-- Heading -->
+    <div class="heading">
+        <h1 class="home-heading">
+            <span class="title-1">Shorts:</span>
+            <span class="title-2">Original Stories</span>
+        </h1>
+    </div>
+    <!-- End Heading -->
+   
+    <!-- Home Page Content -->
+    <div class="home-container">
+         <!--left side  -->
+        <div class="home-card">
+            <div class="home-feature">
+                <h4>Featured Article</h4>
+            </div>
+            <h2>Who Killed Mr. Goodbar?</h2>
+            <p>The scandal that shook Candy Land! Joe Goodbar and Amanda (Almond) Joy appeared to be the ideal couple. 
+                However, things aren't always smooth like chocolate and coconuts. From his association with notorious 
+                gangsters Mike and Ike, his extramarital affairs with mistresses Katherine (KitKat) and secretary Mrs. Airhead, 
+                to the embezzlement of 100 Grand, everyone is pondering: Who Killed Mr. Goodbar?
+            </p>
+            <a href="assets/pages/blogpost.html">
+                <button class="btn">Read More</button>
+            </a>
+        </div>
+        <figure class="home-image">
+            <img src="assets/images/CaseFile.png" 
+            alt="A detective's case file and coffee on table">
+            <figcaption class="home-caption">Fig.1 - Case File</figcaption>
+        </figure>
+    </div>
+    <!-- End Home Page Content -->
+    
+    <div class="more-stories-container">
+        <div class="more-stories">
+            <div class="stories one">
+                <img src="assets/images/candyland.jpg">
+                <div class="stories-info">
+                    <h2>Ice Cream Bandit Strikes Again</h2>
+                    <h3>04/14/2024</h3>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, necessitatibus.
+                    </p>
+                    <button class="stories-btn btn">Read Article</button>
+                </div>
+            </div>
+            <div class="stories two">
+                <img src="assets/images/candyland.jpg">
+                <div class="stories-info">
+                    <h2>Our Beautiful Candy Land</h2>
+                    <h3>04/16/2024</h3>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, aspernatur.
+                    </p>
+                    <button class="stories-btn btn">Read Article</button>
+                </div>
+            </div>
+            <div class="stories three">
+                <img src="assets/images/candyland.jpg">
+                <div class="stories-info">
+                    <h2>Humans: A Threat to Candy Land</h2>
+                    <h3>04/18/2024</h3>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, aspernatur.
+                    </p>
+                    <button class="stories-btn btn">Read Article</button>
+                </div>
+            </div>
+    </div>
 
-    <!-- JavaScript -->
-     <script src="assets/js/app.js"></script>
+     <!-- Footer -->
+     <div id="follow" class="footer">
+        <footer id="footer" class="footer-container">  
+            Carmeshia Lazzana &copy; 2024
+        </footer> 
+    </div>
+    <!-- End Footer -->
 </body>
 </html>
-
-<!-- Sources -->
-<!-- Create a RESPONSIVE NAVBAR with sidebar animation (CSS ONLY) by. Coding2GO 
-https://www.youtube.com/watch?v=8eFeIFKAKHw&t=541s -->
